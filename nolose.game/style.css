@@ -1,0 +1,46 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #bbdefb, #e3f2fd);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+    overflow: hidden;
+  }
+  
+  canvas {
+    border: 3px solid #0d47a1;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    background-color: #e3f2fd;
+  }
+  
+  #game-over {
+    position: absolute;
+    top: 25%;
+    text-align: center;
+    font-size: 32px;
+    color: red;
+    font-weight: bold;
+    display: none;
+  }
+  
+  #restart-btn {
+    position: absolute;
+    top: 40%;
+    display: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #1e88e5;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  
+  
+  
